@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#faf7f2">
+  <meta name="description" content="A personal portfolio and productivity studio built with HTML, CSS and JavaScript.">
+  <title>Syncora — Personal Productivity Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="announcement">
+    <span class="status-dot"></span>
+    A little space for big ideas.
+    <span class="announcement-star">✳</span>
+  </div>
+
+  <header class="navbar">
+    <a class="brand" href="#home">syncora<span>®</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#planner" class="nav-link">Planner</a>
+      <a href="#store" class="nav-link">Discover</a>
+    </nav>
+
+    <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span>✳</span> PORTFOLIO & PERSONAL SPACE</div>
+
+        <h1>Creating a life<br>
+          that feels <em>like you.</em>
+        </h1>
+
+        <p class="hero-description">
+          A little creativity, a little code, and a whole lot of curiosity.
+          Welcome to my corner of the internet.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projects">
+            Explore my work <span>↗</span>
+          </a>
+          <a class="text-link" href="#about">A little about me <span>↓</span></a>
+        </div>
+
+        <div class="hero-note">
+          <span class="note-star">✳</span>
+          <p>Learning, building and becoming — one day at a time.</p>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+
+        <div class="art-sun">
+          <span>✳</span>
+        </div>
+
+        <div class="art-card art-card-top">
+          <span class="tiny-label">CURRENT MOOD</span>
+          <span class="mood-emoji">☁️</span>
+          <strong>Soft focus.</strong>
+          <small>Good things take time.</small>
+        </div>
+
+        <div class="art-center">
+          <span class="center-flower">✿</span>
+          <p>dream it.<br><em>design it.</em><br>do it.</p>
+        </div>
+
+        <div class="art-card art-card-bottom">
+          <span class="tiny-label">TODAY'S INTENTION</span>
+          <strong>Make progress,</strong>
+          <strong>not perfection.</strong>
+          <span class="intention-line"></span>
+        </div>
+
+        <span class="floating-star star-a">✦</span>
+        <span class="floating-star star-b">✳</span>
+        <span class="floating-star star-c">✧</span>
+      </div>
+    </section>
+
+    <!-- QUICK INTRO -->
+    <section class="intro-strip">
+      <p>THOUGHTFULLY DESIGNED</p>
+      <span>✳</span>
+      <p>MADE WITH CURIOSITY</p>
+      <span>✳</span>
+      <p>ALWAYS GROWING</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section-wrap section-space" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span>01 /</span> THE PERSON BEHIND THE PIXELS</p>
+        <h2>Hi, I'm <em>Subhra.</em></h2>
+        <p class="section-subtitle">
+          An IT student learning to turn ideas into useful digital experiences.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-note reveal">
+          <div class="note-top">
+            <span>MY LITTLE MANIFESTO</span>
+            <span>✿</span>
+          </div>
+          <p class="manifesto">
+            “Stay curious.<br>
+            Create with purpose.<br>
+            <em>Keep becoming.</em>”
+          </p>
+          <div class="note-footer">
+            <span>A work in progress, always.</span>
+            <span>♡</span>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <p>
+            I'm exploring the world of web development and discovering how
+            thoughtful design and simple technology can solve everyday problems.
+          </p>
+          <p>
+            I love clean interfaces, little details, creative experiments
+            and building projects that help me learn something new.
+          </p>
+          <a class="text-link" href="#contact">Let's connect <span>↗</span></a>
+
+          <div class="skills">
+            <p class="tiny-label">THINGS I'M LEARNING</p>
+            <div class="skill-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Responsive Design</span>
+              <span>Python</span>
+              <span>Git & GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section-space" id="projects">
+      <div class="section-wrap">
+        <div class="section-heading heading-row reveal">
+          <div>
+            <p class="eyebrow"><span>02 /</span> A FEW THINGS I'VE MADE</p>
+            <h2>Made with <em>intention.</em></h2>
+          </div>
+          <p class="heading-aside">Small projects.<br>Big learning curves.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-art project-art-lilac">
+              <span class="project-number">01 — WEB APP</span>
+              <div class="mock-window">
+                <div class="mock-dots"><i></i><i></i><i></i></div>
+                <div class="mock-heading">a softer way<br>to stay focused.</div>
+                <div class="mock-lines"><i></i><i></i><i></i></div>
+                <span class="mock-flower">✿</span>
+              </div>
+              <span class="project-sticker">stay in flow ↗</span>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Daily Bloom</h3>
+                <p>A little space for everyday tasks.</p>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-art project-art-peach">
+              <span class="project-number">02 — E-COMMERCE UI</span>
+              <div class="product-mock">
+                <div class="mock-product">☁️</div>
+                <div class="mock-product">🌷</div>
+                <div class="mock-product">🕯️</div>
+                <div class="mock-product">🎀</div>
+              </div>
+              <span class="product-mock-caption">little things, lovely living.</span>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>The Little Edit</h3>
+                <p>A curated product discovery page.</p>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+            <div class="project-tags"><span>Filtering</span><span>Sorting</span><span>UI</span></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-art project-art-green">
+              <span class="project-number">03 — PERSONAL SPACE</span>
+              <div class="journal-card">
+                <span>NOTES TO SELF</span>
+                <strong>One day<br>at a time.</strong>
+                <span class="journal-flower">❀</span>
+                <small>collect moments, not pressure.</small>
+              </div>
+              <span class="journal-sparkle">✦</span>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Little Journal</h3>
+                <p>A simple and thoughtful digital space.</p>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+            <div class="project-tags"><span>Design</span><span>JavaScript</span><span>UX</span></div>
+          </article>
+        </div>
+
+        <p class="project-disclaimer">
+          Concept projects for learning and practice. Add your real project links as you build them.
+        </p>
+      </div>
+    </section>
+
+    <!-- PRODUCTIVITY PLANNER -->
+    <section class="planner section-wrap section-space" id="planner">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span>03 /</span> YOUR LITTLE PRODUCTIVITY CORNER</p>
+        <h2>Let's make today <em>count.</em></h2>
+        <p class="section-subtitle">
+          You don't have to do it all. Just start with one thing.
+        </p>
+      </div>
+
+      <div class="planner-layout">
+        <aside class="planner-side reveal">
+          <div class="date-card">
+            <span class="tiny-label">A FRESH LITTLE START</span>
+            <div class="date-flower">✿</div>
+            <p class="date-greeting">Hello, today.</p>
+            <p class="date-display" id="todayDate">One day at a time.</p>
+          </div>
+
+          <div class="progress-card">
+            <div class="progress-top">
+              <span>YOUR PROGRESS</span>
+              <span id="progressPercent">0%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <p id="progressMessage">Every little step counts.</p>
+          </div>
+
+          <div class="gentle-reminder">
+            <span>♡ A GENTLE REMINDER</span>
+            <p>You are allowed to grow at your own pace.</p>
+          </div>
+        </aside>
+
+        <div class="todo-panel reveal">
+          <div class="todo-header">
+            <div>
+              <p class="tiny-label">YOUR TASK LIST</p>
+              <h3>Today's little wins</h3>
+            </div>
+            <span class="todo-flower">✳</span>
+          </div>
+
+          <form class="todo-form" id="taskForm">
+            <input id="taskInput" type="text" maxlength="120"
+              placeholder="Add something you want to do..." required>
+            <button type="submit" class="add-button" aria-label="Add task">+</button>
+          </form>
+
+          <div class="todo-toolbar">
+            <span id="taskCount">0 tasks</span>
+            <button type="button" id="clearCompleted" class="clear-button">
+              Clear completed
+            </button>
+          </div>
+
+          <ul id="taskList" class="task-list"></ul>
+          <div id="emptyTasks" class="empty-tasks">
+            <span>✿</span>
+            <p>Your list is a blank page.</p>
+            <small>Add your first little win above.</small>
+          </div>
+
+          <div class="todo-footer">
+            <span>ONE STEP AT A TIME</span>
+            <span>♡</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT DISCOVERY -->
+    <section class="store section-space" id="store">
+      <div class="section-wrap">
+        <div class="section-heading heading-row reveal">
+          <div>
+            <p class="eyebrow"><span>04 /</span> THE LITTLE DISCOVERY SHOP</p>
+            <h2>Things to <em>fall for.</em></h2>
+          </div>
+          <p class="heading-aside">A demo collection<br>of everyday favorites.</p>
+        </div>
+
+        <div class="store-toolbar reveal">
+          <label class="search-box">
+            <span>⌕</span>
+            <input id="productSearch" type="search" placeholder="Find your favorite...">
+          </label>
+
+          <div class="store-filters">
+            <select id="categoryFilter" aria-label="Filter products by category">
+              <option value="all">All categories</option>
+              <option value="tech">Technology</option>
+              <option value="fashion">Fashion</option>
+              <option value="lifestyle">Lifestyle</option>
+            </select>
+            <select id="sortProducts" aria-label="Sort products">
+              <option value="default">Featured</option>
+              <option value="price-low">Price: Low to high</option>
+              <option value="price-high">Price: High to low</option>
+              <option value="rating">Highest rated</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="product-grid" id="productGrid"></div>
+        <div class="no-products" id="noProducts" hidden>
+          <span>✿</span>
+          <p>Nothing here just yet.</p>
+          <small>Try another search or category.</small>
+        </div>
+
+        <p class="store-note">A demo storefront · Prices and ratings are sample data.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section-wrap section-space" id="contact">
+      <div class="contact-decoration decoration-left">✳</div>
+      <div class="contact-decoration decoration-right">✿</div>
+      <div class="contact-content reveal">
+        <p class="eyebrow">05 / YOUR TURN TO SAY HELLO</p>
+        <h2>Good things begin<br>with <em>a hello.</em></h2>
+        <p>Have an idea, a project, or just want to connect?</p>
+        <a class="button button-dark" href="mailto:your-email@example.com">
+          Write me a little note <span>↗</span>
+        </a>
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="#home">Back to top ↑</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#home">syncora<span>®</span></a>
+    <p>Made with curiosity and a little bit of magic. ♡</p>
+    <p>© <span id="year"></span> Syncora</p>
+  </footer>
+
+</body>
+</html>
